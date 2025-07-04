@@ -2,7 +2,7 @@ const { MongoClient } = require("mongodb");
 const sleep = require("sleep-promise");
 
 async function simulateWriteConflict() {
-  const uri = "mongodb+srv://admin:Tjc1984729@learning.v0kta.mongodb.net/?retryWrites=true&w=majority&appName=learning"; // Update with your MongoDB connection string
+  const uri = "xxxxxx"; // Update with your MongoDB connection string
   const client = new MongoClient(uri);
 
   try {
